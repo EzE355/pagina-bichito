@@ -130,7 +130,11 @@ m-auto: {
     left: 33%;
     top: 65%;
 }
-
+.angi11 {
+    position: absolute;
+    left: 25%;
+    top: 65%;
+}
 
 @media only screen and (max-width: 540px) {
     .euge1 {
@@ -181,6 +185,11 @@ m-auto: {
     .fliacar10 {
     position: absolute;
     left: 49%;
+    top: 65%;
+}
+    .angi11 {
+    position: absolute;
+    left: 39%;
     top: 65%;
 }
 }
