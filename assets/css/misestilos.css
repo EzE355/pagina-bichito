@@ -1,0 +1,205 @@
+/*ARREGLOS Z-INDEX (CAPAZ ROMPEN TODO)*/
+
+.main {
+    z-index: 1050;
+}
+.fixed-top {
+    z-index: 1060;
+}
+
+/* CAMBIOS A LOS ESTILOS MATERIAL Y BOOSTRAP */
+
+.title {
+    font-size: 2rem;
+}
+.section {
+    padding: 30px 0 60px 0;
+}
+.blockquote {
+    /*poema*/
+    border: none;
+}
+
+.main {
+    min-height: 80px!important;
+    height: auto!important;
+}
+
+
+pre {
+    font-size: 100%;
+}
+
+@media only screen and (max-width: 540px) {
+    pre {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .page-header {
+        height: 70vh;
+    }
+}
+
+/*CAROUSEL*/
+
+m-auto: {
+    margin: auto;
+}
+.p-b {
+    padding-bottom: 10%;
+}
+.w-80 {
+    width: 80%;
+}
+.carousel-inner {
+    width: 100%;
+}
+@media only screen and (max-width: 540px) {
+    .carousel .carousel-indicators {
+        bottom: -10px;
+    }
+}
+
+/*MAPA1*/
+
+.mapa {
+    min-width: 900px;
+}
+.container-mapa {
+    position: relative;
+    min-width: 600px;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.img-video {
+    width: 100%;
+}
+
+/*videos*/
+
+.euge1 {
+    position: absolute;
+    left: 42%;
+    top: 36%;
+}
+.angelo2 {
+    position: absolute;
+    left: 18%;
+    top: 46%;
+}
+.ceci3 {
+    position: absolute;
+    left: 48%;
+    top: 28%;
+}
+.agus4 {
+    position: absolute;
+    left: 28%;
+    top: 76%;
+}
+.pame5 {
+    position: absolute;
+    left: 26%;
+    top: 54%;
+}
+.fliaeze6 {
+    position: absolute;
+    left: 18%;
+    top: 51%;
+}
+.padrepame7 {
+    position: absolute;
+    left: 44%;
+    top: 29%;
+}
+.madrepame8 {
+    position: absolute;
+    left: 70%;
+    top: 21%;
+}
+.fliasofi9 {
+    position: absolute;
+    left: 46%;
+    top: 35%;
+}
+.fliacar10 {
+    position: absolute;
+    left: 33%;
+    top: 65%;
+}
+
+
+@media only screen and (max-width: 540px) {
+    .euge1 {
+        position: absolute;
+        left: 63%;
+        top: 35%;
+    }
+    .angelo2 {
+        position: absolute;
+        left: 28%;
+        top: 44%;
+    }
+    .ceci3 {
+        position: absolute;
+        left: 74%;
+        top: 28%;
+    }
+    .agus4 {
+        position: absolute;
+        left: 43%;
+        top: 76%;
+    }
+    .pame5 {
+        position: absolute;
+        left: 40%;
+        top: 53%;
+    }
+    .fliaeze6 {
+        position: absolute;
+        left: 29%;
+        top: 51%;
+    }
+    .padrepame7 {
+        position: absolute;
+        left: 67%;
+        top: 27%;
+    }
+    .madrepame8 {
+        position: absolute;
+        left: 105%;
+        top: 21%;
+    }
+    .fliasofi9 {
+        position: absolute;
+        left: 70%;
+        top: 33%;
+    }
+    .fliacar10 {
+    position: absolute;
+    left: 49%;
+    top: 65%;
+}
+}
+.btn-video {
+    padding: 0.3rem 0.5rem 0.1rem 0.5rem;
+}
+i {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/*CAROUSEL*/
+
+.f-size-carousel {
+    font-size: 1rem;
+}
+
+/*CARDS*/
+
+.card-imagen {
+    width: 60%;
+}
